@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/loadafter/buchong/shexingkuang.png</file>
+        <file>image/loadafter/1/tab/组19.png</file>
+        <file>image/loadafter/1/xiayibuanzhong.png</file>
+        <file>image/loadafter/1/xiayibuweixuanzhong.png</file>
+        <file>image/loadafter/tab/2/组25.png</file>
+        <file>image/login/M1.png</file>
+    </qresource>
+</RCC>

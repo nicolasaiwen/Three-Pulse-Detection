@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThreePulseDialog</class>
+ <widget class="QDialog" name="ThreePulseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_realtime_cun">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>70</y>
+     <width>1300</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #36d2ff;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_realtime_guan">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>390</y>
+     <width>1300</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #36d2ff;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_realtime_chi">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>710</y>
+     <width>1300</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #36d2ff;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>1720</x>
+     <y>1000</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_jingya_cun">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>320</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>320</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>静压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_jingya_guan">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>640</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>640</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>静压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_jingya_chi">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>960</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>960</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>静压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>40</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>680</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>360</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>60</y>
+     <width>531</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox{
+border:2px solid #4473c5;;
+border-radius:5px;
+margin-top: 2ex; 
+	font-family:&quot;苹方 粗体&quot;;
+	font-size:20px;
+	color:#4473c5;
+
+}
+QGroupBox::title {
+      subcontrol-origin: margin;
+       left:10px;
+  }</string>
+   </property>
+   <property name="title">
+    <string>基本设置区</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>串口号：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-image: url(:/image/loadafter/buchong/bitibaisedise.png);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_open">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>180</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>打开串口</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_open_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>180</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>关闭串口</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>波特率：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>90</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-image: url(:/image/loadafter/buchong/bitibaisedise.png);
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>110</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>300</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>600</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1200</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4800</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9600</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19200</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>56000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>57600</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>115200</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>230400</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>测量模式：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 18px;
+border-image: url(:/image/loadafter/buchong/bitibaisedise.png);
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>三部模式</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双部模式</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>310</y>
+     <width>531</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox{
+border:2px solid #4473c5;;
+border-radius:5px;
+margin-top: 2ex; 
+	font-family:&quot;苹方 粗体&quot;;
+	font-size:20px;
+	color:#4473c5;
+
+}
+QGroupBox::title {
+      subcontrol-origin: margin;
+       left:10px;
+  }</string>
+   </property>
+   <property name="title">
+    <string>下发命令区</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>寸部压力梯度：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>关部压力梯度：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>尺部压力梯度：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_start">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>开始加压</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_stopcun">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>停止寸部加压</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_stopguan">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>380</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>停止关部加压</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_stopchi">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>380</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>停止尺部加压</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_stopAll">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>300</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>停止加压</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_tiaoshi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: #ffffff;
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+    </property>
+    <property name="text">
+     <string>其它命令</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cunPre">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+padding:5px;	
+font-family: &quot;苹方 中等&quot;;
+	font-size: 12px;
+	color: #686868;
+border-radius: 6px;
+	
+	border-image: url(:/image/loadafter/buchong/shexingkuang.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_guanPre">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+padding:5px;	
+font-family: &quot;苹方 中等&quot;;
+	font-size: 12px;
+	color: #686868;
+border-radius: 6px;
+	
+	border-image: url(:/image/loadafter/buchong/shexingkuang.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_chiPre">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>210</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+padding:5px;	
+font-family: &quot;苹方 中等&quot;;
+	font-size: 12px;
+	color: #686868;
+border-radius: 6px;
+	
+	border-image: url(:/image/loadafter/buchong/shexingkuang.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_cunPre">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: rgb(143, 178, 186);
+font: 9pt &quot;PingFang SC Medium&quot;;</string>
+    </property>
+    <property name="text">
+     <string>选择压力</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_guanPre">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>170</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: rgb(143, 178, 186);
+font: 9pt &quot;PingFang SC Medium&quot;;</string>
+    </property>
+    <property name="text">
+     <string>选择压力</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_chiPre">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>250</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: rgb(143, 178, 186);
+font: 9pt &quot;PingFang SC Medium&quot;;</string>
+    </property>
+    <property name="text">
+     <string>选择压力</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>620</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>下发命令反馈：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_error">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>610</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+padding:5px;	
+font-family: &quot;苹方 中等&quot;;
+	font-size: 12px;
+	color: #686868;
+border-radius: 6px;
+	
+	border-image: url(:/image/loadafter/buchong/shexingkuang.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+    </property>
+    <property name="text">
+     <string>下发命令：</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_command">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>560</y>
+      <width>511</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding:5px;	
+font-family: &quot;苹方 中等&quot;;
+	font-size: 12px;
+	color: #686868;
+border-radius: 6px;
+	
+	border-image: url(:/image/loadafter/buchong/shexingkuang.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_dongya_cun">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>320</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>320</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>动压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>640</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>动压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dongya_guan">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>640</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dongya_chi">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>960</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>960</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>动压值：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>501</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 22px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>1650</x>
+     <y>30</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;</string>
+   </property>
+   <property name="text">
+    <string>实时脉率(次/min)：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_mailv">
+   <property name="geometry">
+    <rect>
+     <x>1810</x>
+     <y>30</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	background-color: transparent;
+
+	font-family: &quot;苹方 粗体&quot;;
+	font-size: 18px;
+	color: #737373;</string>
+   </property>
+   <property name="text">
+    <string>--</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

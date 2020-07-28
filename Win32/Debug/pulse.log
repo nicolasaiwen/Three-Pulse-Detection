@@ -1,0 +1,50 @@
+﻿生成启动时间为 2020/7/28 17:16:30。
+     1>项目“D:\threePulse_jiance - 副本\pulse\pulse.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtRccSetDependencies:
+         "D:\Qt2\Qt5.7.1\5.7\msvc2013\bin\rcc.exe" --list "image_pulse.qrc" > "Win32\Debug\rcc_list.txt" 2> nul
+       QtWork:
+         Rcc'ing image_pulse.qrc...
+         Moc'ing getpulsedata_three.h...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles\Debug /I.\GeneratedFiles /I. /I..\..\QT2\QT5.7.1\5.7\MSVC2013\include /I..\..\QT2\QT5.7.1\5.7\MSVC2013\include\QtWidgets /I..\..\QT2\QT5.7.1\5.7\MSVC2013\include\QtGui /I..\..\QT2\QT5.7.1\5.7\MSVC2013\include\QtANGLE /I..\..\QT2\QT5.7.1\5.7\MSVC2013\include\QtCore /Idebug /I"..\..\QT2\QT5.7.1\5.7\MSVC2013\mkspecs\win32-msvc2013" /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtCore /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtGui /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtANGLE /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtSerialPort /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtWidgets /ID:\Qt2\Qt5.7.1\5.7\msvc2013\include\QtXml /Zi /nologo /W3 /WX- /MP /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_SERIALPORT_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 baseinfodialog.cpp getpulsedata_three.cpp logindialog.cpp main.cpp prechoosedialog.cpp testdialog.cpp threepulsedialog.cpp tipdialog.cpp Debug\moc_testdialog.cpp Debug\moc_prechoosedialog.cpp Debug\moc_logindialog.cpp Debug\moc_baseinfodialog.cpp Debug\moc_threepulsedialog.cpp Debug\moc_tipdialog.cpp GeneratedFiles\qrc_image_pulse.cpp Debug\moc_getpulsedata_three.cpp
+         baseinfodialog.cpp
+         getpulsedata_three.cpp
+         logindialog.cpp
+         main.cpp
+         prechoosedialog.cpp
+         testdialog.cpp
+         threepulsedialog.cpp
+         tipdialog.cpp
+     1>logindialog.cpp(20): warning C4100: “arg1”: 未引用的形参 (logindialog.cpp)
+         moc_testdialog.cpp
+         moc_prechoosedialog.cpp
+         moc_logindialog.cpp
+         moc_baseinfodialog.cpp
+         moc_threepulsedialog.cpp
+     1>d:\threepulse_jiance - 副本\pulse\testdialog.cpp(278): warning C4715: “TestDialog::combineAddPressCommand”: 不是所有的控件路径都返回值
+         moc_tipdialog.cpp
+         qrc_image_pulse.cpp
+         moc_getpulsedata_three.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\pulse.exe" /NOLOGO /LIBPATH:D:\QT2\QT5.7.1\5.7\MSVC2013\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:D:\Qt2\Qt5.7.1\5.7\msvc2013\lib D:\QT2\QT5.7.1\5.7\MSVC2013\lib\qtmaind.lib shell32.lib D:\QT2\QT5.7.1\5.7\MSVC2013\lib\Qt5Widgetsd.lib D:\QT2\QT5.7.1\5.7\MSVC2013\lib\Qt5Guid.lib D:\QT2\QT5.7.1\5.7\MSVC2013\lib\Qt5Cored.lib Qt5Cored.lib Qt5Guid.lib Qt5SerialPortd.lib Qt5Widgetsd.lib Qt5Xmld.lib MX.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\pulse.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Debug\baseinfodialog.obj
+         Win32\Debug\getpulsedata_three.obj
+         Win32\Debug\logindialog.obj
+         Win32\Debug\main.obj
+         Win32\Debug\prechoosedialog.obj
+         Win32\Debug\testdialog.obj
+         Win32\Debug\threepulsedialog.obj
+         Win32\Debug\tipdialog.obj
+         Win32\Debug\moc_testdialog.obj
+         Win32\Debug\moc_prechoosedialog.obj
+         Win32\Debug\moc_logindialog.obj
+         Win32\Debug\moc_baseinfodialog.obj
+         Win32\Debug\moc_threepulsedialog.obj
+         Win32\Debug\moc_tipdialog.obj
+         Win32\Debug\qrc_image_pulse.obj
+         Win32\Debug\moc_getpulsedata_three.obj
+         pulse.vcxproj -> D:\threePulse_jiance - 副本\pulse\debug\pulse.exe
+     1>已完成生成项目“D:\threePulse_jiance - 副本\pulse\pulse.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.15

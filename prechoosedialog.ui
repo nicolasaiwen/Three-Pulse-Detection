@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PreChooseDialog</class>
+ <widget class="QDialog" name="PreChooseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>260</y>
+     <width>380</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 227, 231);
+border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>-80</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(240, 240, 240,50%);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>690</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: rgb(24, 24, 24);
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 24px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sure">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>690</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-image: url(:/image/loadafter/1/xiayibuweixuanzhong.png);
+border-radius: 22px;
+color: rgb(24, 24, 24);
+font-family: &quot;苹方 粗体&quot;;
+	font-size: 24px;}
+QPushButton:focus,QPushButton:hover{
+border-image: url(:/image/loadafter/tab/2/组25.png);
+}
+	
+QPushButton:pressed{
+url(:/image/loadafter/1/xiayibuanzhong.png)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>270</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;苹方 中等&quot;;
+	font-size: 14px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>300</y>
+     <width>211</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 227, 231);
+border-color: rgb(208, 227, 231);
+font: 14pt &quot;苹方 常规&quot;;</string>
+   </property>
+   <attribute name="headerVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_close</zorder>
+  <zorder>pushButton_sure</zorder>
+  <zorder>label_2</zorder>
+  <zorder>treeWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
